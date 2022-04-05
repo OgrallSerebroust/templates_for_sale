@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    /*TODO Проверить звёзды на правильность*/
+    font-family: "GilroyMedium";
+    /*color: #F8F8F8;*/
+}
+
+nav {
+    margin: 0.028vh auto 0 auto;
+    width: 60.9375vw;
+}
+
+.nav-link {
+    color: #F8F8F8;
+    font-size: 18px;
+    line-height: 21.83px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 0 0 0 3.125vw;
+}
+
+#background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/png/Background.png") no-repeat center;
+    background-size: cover;
+    z-index: -1;
+}
+
+#header_main_block {
+    background-color: #FFFFFF;
+}
+
+@font-face {
+    font-family: "GilroyMedium";
+    src: url("../fonts/Gilroy-Medium.woff") format("woff");
+    src: url("../fonts/Gilroy-Medium.woff2") format("woff2");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "GilroyBold";
+    src: url("../fonts/Gilroy-Bold.woff") format("woff");
+    src: url("../fonts/Gilroy-Bold.woff2") format("woff2");
+    font-style: bold;
+    font-weight: 700;
+}
